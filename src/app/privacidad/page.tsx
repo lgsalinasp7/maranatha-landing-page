@@ -27,7 +27,7 @@ export default function PrivacidadPage() {
 
         <h2 className={TITULO}>Quién es el responsable</h2>
         <ul className={LISTA}>
-          <li>Iglesia Maranatha Montería Central</li>
+          <li>Iglesia de Avivamiento Mundial Maranatha Montería</li>
           <li>Domicilio y dirección: calle 30 # 10-109, Centro, Montería, Córdoba, Colombia</li>
           <li>
             Correo:{" "}

@@ -212,7 +212,7 @@
 .mm .send{display:flex;flex-direction:column;gap:14px}
 .mm .btn-send{width:100%;min-height:54px;font-size:15px;background:linear-gradient(90deg,#0959bd,#0a70d6);color:#fff;box-shadow:0 8px 22px rgba(10,112,214,.42),0 0 14px rgba(53,214,255,.35)}
 .mm .btn-send:hover{background:linear-gradient(90deg,#0a4fa6,#0959bd)}
-.mm .chk{display:flex;align-items:center;gap:9px;min-height:44px;font-size:13px;line-height:1.35;cursor:pointer}
+.mm .chk{display:flex;align-items:flex-start;gap:9px;min-height:44px;font-size:13px;line-height:1.35;cursor:pointer}
 .mm .chk input{width:20px;height:20px;margin:0;flex:none;accent-color:#0a62c8}
 .mm .chk a{color:#0b5f9c;text-decoration:underline}
 .mm .demo{margin:0;padding:10px 12px;border-radius:10px;background:#e8f6ff;font-size:13px;line-height:1.4;font-weight:700;color:#0b4f85}

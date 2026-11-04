@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Manrope } from "next/font/google";
+import { VERSION_POLITICA } from "@/app/privacidad/version";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -575,7 +576,9 @@ function Oracion() {
     const nombre = String(datos.get("nombre") ?? "").trim();
     const peticion = String(datos.get("peticion") ?? "").trim();
     const saludo = nombre ? `¡Hola! Soy ${nombre}.` : "¡Hola!";
-    const url = enlaceWhatsApp(`${saludo} Quiero dejar una petición de oración: ${peticion}`);
+    // La autorización va en el mensaje: el sitio no guarda nada, y así queda prueba de ella.
+    const autorizacion = `Autorizo a la Iglesia Maranatha a tratar estos datos, incluidos los sensibles, para orar por mí y responderme (política de privacidad, versión ${VERSION_POLITICA}).`;
+    const url = enlaceWhatsApp(`${saludo} Quiero dejar una petición de oración: ${peticion}\n\n${autorizacion}`);
     setEnlace(url);
     window.open(url, "_blank", "noopener,noreferrer");
   };
@@ -611,7 +614,11 @@ function Oracion() {
             <button type="submit" className="btn btn-send">Enviar por WhatsApp <Flecha /></button>
             <label className="chk" htmlFor="mm-ok">
               <input id="mm-ok" type="checkbox" required />
-              <span>Acepto la <Link href="/privacidad">política de privacidad</Link></span>
+              <span>
+                Autorizo a la iglesia a tratar lo que escribo, incluso datos sensibles como mi fe o mi
+                salud, para orar por mí y responderme. No estoy obligado a autorizarlo. Ver la{" "}
+                <Link href="/privacidad">política de privacidad</Link>.
+              </span>
             </label>
             {enlace && (
               <p className="demo" role="status">

@@ -28,6 +28,7 @@ export default function PrivacidadPage() {
         <h2 className={TITULO}>Quién es el responsable</h2>
         <ul className={LISTA}>
           <li>Iglesia de Avivamiento Mundial Maranatha Montería</li>
+          <li>Resolución 0750 del 25 de abril de 2025 del Ministerio del Interior</li>
           <li>Domicilio y dirección: calle 30 # 10-109, Centro, Montería, Córdoba, Colombia</li>
           <li>
             Correo:{" "}

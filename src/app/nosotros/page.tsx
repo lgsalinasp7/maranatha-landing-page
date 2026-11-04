@@ -233,7 +233,7 @@ export default function NosotrosPage() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {[
-                { title: "Servicio Dominical", time: "Domingo · 9:00 am", color: "border-cyan-400/60" },
+                { title: "Servicio Dominical", time: "Domingo · 10:00 am", color: "border-cyan-400/60" },
                 { title: "Escuela de Oración", time: "Martes · 6:30 pm", color: "border-blue-400/60" },
                 { title: "Casas AMAR", time: "Jueves · 7:00 pm", color: "border-orange-400/60" },
               ].map((item) => (

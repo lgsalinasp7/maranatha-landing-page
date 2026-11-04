@@ -1,4 +1,4 @@
-const PHONE = "573042953362";
+const PHONE = "573114710669";
 const MESSAGE = encodeURIComponent(
   "¡Hola! Me gustaría saber más sobre la Iglesia Maranatha Montería Central. 😊"
 );

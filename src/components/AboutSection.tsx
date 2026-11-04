@@ -105,7 +105,7 @@ export default function AboutSection() {
                 </div>
                 <div className="relative z-10">
                   <h4 className="text-white text-xl md:text-2xl font-bold tracking-wide mb-1">SERVICIO DOMINICAL</h4>
-                  <p className="text-cyan-200/90 font-medium mb-5">Domingo 9:00 am</p>
+                  <p className="text-cyan-200/90 font-medium mb-5">Domingo 10:00 am</p>
                   <Link
                     href="#visit"
                     className="inline-flex items-center justify-center gap-2 bg-white text-neutral-900 py-3 px-6 rounded-full font-semibold text-sm hover:bg-cyan-100 transition-colors cursor-pointer"

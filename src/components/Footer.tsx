@@ -45,7 +45,7 @@ export default function Footer() {
 
             <div className="flex flex-col sm:flex-row gap-3 items-start">
               <Link
-                href="https://wa.me/573042953362"
+                href="https://wa.me/573114710669"
                 className="btn-pill w-fit bg-brand-light text-brand-dark py-3 px-6 text-center text-sm hover:bg-white"
               >
                 Saluda
@@ -70,10 +70,10 @@ export default function Footer() {
               </a>
 
               <a
-                href="tel:+573042953336"
+                href="tel:+573114710669"
                 className="block text-brand-light hover:text-white transition-colors underline hover:no-underline"
               >
-                +57 3042953362
+                +57 3114710669
               </a>
 
               <address className="not-italic text-brand-light/90">
